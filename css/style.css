@@ -14,22 +14,80 @@ html {
   text-align: center;
   background: black;
   color: white;
+  font-family: 'Open sans', Arial, Helvetica, sans-serif;
+  padding:4rem;
+}
+
+#image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 img {
-  display: block;
+  max-width: 45vw;
+  max-height: 50vh;
+}
+
+#content{
+  display: flex;
+}
+
+#product-info {
+  border: 1px solid white;
+  width: 100%;
+}
+
+#product-info > div{
+  border: 1px solid white;
+}
+
+/* #nutriScore {
+  text-transform: capitalize;
+} */
+
+
+
+#product-name {
+  text-transform: capitalize;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
   margin: 0 auto;
-  float: left;
-  height: 60vh;
 }
 
-div {
-  float: left;
-  width: 50%;
+th, td {
+  padding: 0.5rem;
+  border: 0.1rem solid white;
+}
+
+#Nutri-Score-about, #NOVA-Group-about {
+  text-align: left;
+  padding: 1rem;
 }
 
 
+.not-vegan {
+  background: rgb(102, 1, 1);
+}
+
+.maybe-vegan {
+  background: rgb(161, 92, 7);
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+a {
+  color: lightskyblue;
+}
+
+#novaScore, #nutriScore {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
