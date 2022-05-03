@@ -1,2 +1,11 @@
-# Ethical Eats
-A web app that can be used to determine how healthy a food product is based on its Nutri-Score and NOVA scores, what packaging it comes in, the ingredients it contains, and if it's vegan. Food products are searched by their barcode. Built using HTML, CSS, JS, and the Open Food Facts API.
+# [Ethical Eats](https://ethicaleats.netlify.app/)
+
+![A screeshot of the starting page of the app.](/img/homeScreenshotCrop.webp)
+
+## A web app that can be used to determine how healthy a food product is based on its Nutri-Score and NOVA scores, what packaging it comes in, the ingredients it contains, and if it's vegan. Food products are found by searching their barcodes. 
+
+## Tech Used: HTML, CSS, JS, Open Food Facts API
+In the future, I will be applying a template to this web app so it has better UI/UX. Functionality-wise, there are some additional edge cases I'm still figuring out how to address. 
+
+## Lessons Learned:
+Data quality is super important! One of the biggest challenges I had with getting this API to work was identifying which properties I could pull from the objects provided because a lot of the data was incomplete. In the process of building this app I also learned how to create and display new text elements in the DOM using JavaScript.
